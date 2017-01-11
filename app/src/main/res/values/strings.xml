@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DriverList</string>
+    <string name="rating_name">Overall Rating(</string>
+    <string name="close_parens">):</string>
+    <string name="rating_name_value">96.8%</string>
+    <string name="appearance">Appearance:</string>
+    <string name="appearance_value">7.6</string>
+    <string name="age">Age:</string>
+    <string name="age_value">21</string>
+    <string name="pics_accurate">Pics Accurate:</string>
+    <string name="pics_accurate_value">Yes</string>
+    <string name="sample_size_value">2</string>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/driver_list_image_view_item"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/tinkly_winkly"/>
+    <TextView
+        android:id="@+id/item_overall_rating"
+        android:layout_width="92dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/driver_list_image_view_item"
+        android:text="@string/rating_name"/>
+    <TextView
+        android:id="@+id/item_appearance"
+        android:layout_width="131dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/driver_list_image_view_item"
+        android:layout_below="@id/item_overall_rating"
+        android:text="@string/appearance"/>
+
+    <TextView
+        android:id="@+id/item_sample_number"
+        android:layout_width="24dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:gravity="center_horizontal"
+        android:layout_toRightOf="@id/item_overall_rating"
+        android:text="@string/sample_size_value"/>
+
+    <TextView
+        android:id="@+id/item_rating_close_parens"
+        android:layout_width="15dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/item_sample_number"
+        android:text="@string/close_parens"/>
+
+    <TextView
+        android:id="@+id/item_overall_rating_value"
+        android:layout_width="49dp"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/item_rating_close_parens"
+        android:text="@string/rating_name_value"/>
+    <TextView
+        android:id="@+id/item_appearance_value"
+        android:layout_width="49dp"
+        android:layout_height="30dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_toRightOf="@id/item_appearance"
+        android:layout_below="@id/item_overall_rating"
+        android:text="@string/appearance_value"/>
+    <TextView
+        android:id="@+id/item_age"
+        android:layout_width="94dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/item_overall_rating_value"
+        android:text="@string/age"/>
+    <TextView
+        android:id="@+id/item_pics_accurate"
+        android:layout_width="96dp"
+        android:layout_height="30dp"
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/item_appearance_value"
+        android:layout_below="@id/item_age"
+        android:text="@string/pics_accurate"/>
+    <TextView
+        android:id="@+id/item_age_value"
+        android:layout_width="46dp"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/item_age"
+        android:text="@string/age_value"/>
+    <TextView
+        android:id="@+id/item_pics_accurate_value"
+        android:layout_width="44dp"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/item_pics_accurate"
+        android:layout_below="@id/item_age"
+        android:text="@string/pics_accurate_value"/>
+
+
+</RelativeLayout>
